@@ -52,10 +52,10 @@ type[scope]: imperative summary (50–72 chars)
 
 This skill may be invoked by another model. Do not assume the skill runner is the code author.
 
-- The invoking prompt should specify which model assisted in generating the code.
+- The invoking prompt must specify which model assisted in generating the code.
 - Do not co-author commits. Instead, add an `Assisted by` line at the end of the commit message block.
 - Extract the model name from the prompt and use it in the `Assisted by` line.
-- If no model is specified, omit the `Assisted by` line rather than guessing.
+- If no model is specified, pause and request the model name before committing.
 - Never use the skill runner's own model name as the assistant.
 
 Examples:
