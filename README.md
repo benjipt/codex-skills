@@ -1,5 +1,7 @@
 # codex-skills
 
+Note: This skill set is still being tested.
+
 A small set of reusable Codex skills for clean git history and lightweight code review.
 
 ## Included skills
@@ -53,6 +55,14 @@ Skills can be packaged into `.skill` files for distribution, but they are not re
 python3 $CODEX_HOME/skills/.system/skill-creator/scripts/package_skill.py skills/atomic-commit-agent
 python3 $CODEX_HOME/skills/.system/skill-creator/scripts/package_skill.py skills/code-reviewer
 ```
+
+## Contributing
+
+Contributions are welcome! When modifying a skill:
+
+1. Follow the skill format above
+2. Provide a use case for the suggested change
+4. Test the skill before submitting
 
 ## License
 
