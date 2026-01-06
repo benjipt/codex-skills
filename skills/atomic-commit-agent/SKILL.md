@@ -28,7 +28,6 @@ type[scope]: imperative summary (50–72 chars)
 - Bullet describing what changed
 - CLI/tools used if relevant
 - LLM/model used if AI-assisted (only if provided)
-- Environment/config changes if any
 ```
 
 ### Commit Types
